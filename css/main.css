@@ -1,0 +1,102 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #e2e2e2;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+div {
+  font-size: 1.5em;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+  padding-top: 1rem;
+}
+
+.btn {
+  color: #fff;
+  background-color: #555;
+  font-size: 1.5rem;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  border: 2px solid;
+  border-color: #555;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+  figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  width: 20em;
+  right: 1.3rem;
+  bottom: 1.3rem;
+  background-color: rgba(0, 0, 0, .3);
+  color: #fff;
+  font-size: 110%;
+  border-radius: 10px;
+  line-height: 1.4;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  figure {
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    width: 20em;
+    right: 1.3rem;
+    bottom: 1.3rem;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    font-size: 120%;
+    border-radius: 10px;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  figure {
+    position: relative;
+  }
+
+  figcaption {
+    position: absolute;
+    width: 20em;
+    right: 1.3rem;
+    bottom: 1.3rem;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    font-size: 130%;
+    border-radius: 10px;
+    line-height: 1.6;
+  }
+}
