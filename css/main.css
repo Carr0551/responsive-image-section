@@ -20,9 +20,18 @@ html {
   font-size: 100%;
 }
 
+h1 {
+  padding-top: .25rem;
+}
+
 h2 {
   font-size: 1em;
-  padding-bottom: 0;
+  margin: .125rem;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 2rem;
 }
 
 content {
@@ -81,18 +90,18 @@ h1 {
   padding-top: .8rem;
 }
 
-
 .img-flex {
-  display: inline-block;
+  display: block;
   max-width: 45%;
   }
 
 .btn {
   text-align: left;
+  padding-top: .125rem;
   }
 
 .content {
-  max-width: 49%;
+  max-width: 48%;
   }
 }
 
@@ -102,6 +111,10 @@ h1 {
     font-size: 120%;
     line-height: 1.5;
   }
+
+  .img-flex {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -110,9 +123,4 @@ h1 {
       font-size: 130%;
       line-height: 1.5;
   }
-
-  .img-flex {
-    max-width: 33.333%;
-  }
-
 }
